@@ -6,7 +6,7 @@
 #import <Foundation/Foundation.h>
 #import "WebAppSession.h"
 #import "MultiScreenService.h"
-#import <SamsungMultiscreen/SamsungMultiscreen.h>
+//#import <SamsungMultiscreen/SamsungMultiscreen.h>
 
 
 @interface MultiScreenWebAppSession : WebAppSession

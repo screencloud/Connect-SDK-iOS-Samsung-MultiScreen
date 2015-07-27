@@ -5,9 +5,9 @@
 
 #import "MultiScreenDiscoveryProvider.h"
 #import "ServiceDescription.h"
-#import <SamsungMultiscreen/SamsungMultiscreen.h>
+//#import <SamsungMultiscreen/SamsungMultiscreen.h>
 #import "MultiScreenService.h"
-
+#import "MSDevice.h"
 
 @interface MultiScreenDiscoveryProvider ()
 

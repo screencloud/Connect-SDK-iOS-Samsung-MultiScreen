@@ -10,6 +10,8 @@
 #import "MultiScreenWebAppSession.h"
 #import "ConnectUtil.h"
 
+#import "MSDevice.h"
+
 @implementation MultiScreenService
 {
     NSMutableDictionary *_sessions;
@@ -32,13 +34,13 @@
     _device = [self deviceForId:serviceDescription.UUID];
 }
 
-- (Service *) deviceForId:(NSString *)deviceId
+- (MSDevice *) deviceForId:(NSString *)deviceId
 {
     if (!deviceId || deviceId.length == 0)
         return nil;
-    
-    __block Service *device;
-    
+
+    __block MSDevice *device;
+
     [[DiscoveryManager sharedManager].discoveryProviders enumerateObjectsUsingBlock:^(DiscoveryProvider *provider, NSUInteger idx, BOOL *stop) {
         if ([provider isKindOfClass:[MultiScreenDiscoveryProvider class]])
         {
@@ -47,28 +49,9 @@
             *stop = YES;
         }
     }];
-    
+
     return device;
 }
-
-//- (MSDevice *) deviceForId:(NSString *)deviceId
-//{
-//    if (!deviceId || deviceId.length == 0)
-//        return nil;
-//
-//    __block MSDevice *device;
-//
-//    [[DiscoveryManager sharedManager].discoveryProviders enumerateObjectsUsingBlock:^(DiscoveryProvider *provider, NSUInteger idx, BOOL *stop) {
-//        if ([provider isKindOfClass:[MultiScreenDiscoveryProvider class]])
-//        {
-//            MultiScreenDiscoveryProvider *multiScreenProvider = (MultiScreenDiscoveryProvider *) provider;
-//            device = multiScreenProvider.devices[deviceId];
-//            *stop = YES;
-//        }
-//    }];
-//
-//    return device;
-//}
 
 #pragma mark - DeviceService methods
 
@@ -241,7 +224,7 @@
         params = @{};
 
     webAppId = [ConnectUtil urlEncode:webAppId];
-    
+
     [self.device getApplication:webAppId completionBlock:^(MSApplication *application, NSError *getError) {
         if (getError || !application)
         {

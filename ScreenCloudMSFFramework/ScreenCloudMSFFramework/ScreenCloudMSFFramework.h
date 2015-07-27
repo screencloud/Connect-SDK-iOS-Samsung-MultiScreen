@@ -7,8 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MultiScreenSErvice.m"
-
+#import "MultiScreenService.h"
 @import MSF;
 
 //! Project version number for ScreenCloudMSFFramework.

@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF0697431B66306F001F3859 /* MSDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0697411B66306F001F3859 /* MSDevice.h */; };
+		EF0697441B66306F001F3859 /* MSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0697421B66306F001F3859 /* MSDevice.m */; };
+		EF0697451B66306F001F3859 /* MSDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0697421B66306F001F3859 /* MSDevice.m */; };
+		EF0697481B6637C8001F3859 /* MSApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0697461B6637C8001F3859 /* MSApplication.h */; };
+		EF0697491B6637C8001F3859 /* MSApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0697471B6637C8001F3859 /* MSApplication.m */; };
+		EF06974A1B6637C8001F3859 /* MSApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0697471B6637C8001F3859 /* MSApplication.m */; };
+		EF06974D1B6637E8001F3859 /* MSChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = EF06974B1B6637E8001F3859 /* MSChannel.h */; };
+		EF06974E1B6637E8001F3859 /* MSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF06974C1B6637E8001F3859 /* MSChannel.m */; };
+		EF06974F1B6637E8001F3859 /* MSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = EF06974C1B6637E8001F3859 /* MSChannel.m */; };
+		EF0697521B6637FE001F3859 /* MSChannelClient.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0697501B6637FE001F3859 /* MSChannelClient.h */; };
+		EF0697531B6637FE001F3859 /* MSChannelClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0697511B6637FE001F3859 /* MSChannelClient.m */; };
+		EF0697541B6637FE001F3859 /* MSChannelClient.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0697511B6637FE001F3859 /* MSChannelClient.m */; };
+		EF06975C1B663973001F3859 /* MSChannelClientList+CLIENTS.h in Headers */ = {isa = PBXBuildFile; fileRef = EF06975A1B663973001F3859 /* MSChannelClientList+CLIENTS.h */; };
+		EF06975D1B663973001F3859 /* MSChannelClientList+CLIENTS.m in Sources */ = {isa = PBXBuildFile; fileRef = EF06975B1B663973001F3859 /* MSChannelClientList+CLIENTS.m */; };
+		EF06975E1B663973001F3859 /* MSChannelClientList+CLIENTS.m in Sources */ = {isa = PBXBuildFile; fileRef = EF06975B1B663973001F3859 /* MSChannelClientList+CLIENTS.m */; };
 		EF866CBE1B661E8D003CD818 /* ScreenCloudMSFFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = EF866CBD1B661E8D003CD818 /* ScreenCloudMSFFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EF866CC41B661E8D003CD818 /* ScreenCloudMSFFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF866CB81B661E8D003CD818 /* ScreenCloudMSFFramework.framework */; };
 		EF866CCB1B661E8D003CD818 /* ScreenCloudMSFFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF866CCA1B661E8D003CD818 /* ScreenCloudMSFFrameworkTests.m */; };
@@ -68,6 +83,16 @@
 		6D587343B3E8066CC9433ACE /* libPods-ScreenCloudMSFFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScreenCloudMSFFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		771AA69C77050E9F4B7265F3 /* Pods-ScreenCloudMSFFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenCloudMSFFrameworkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenCloudMSFFrameworkTests/Pods-ScreenCloudMSFFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E743D9E2A9AE5F1FACDA8AF3 /* Pods-ScreenCloudMSFFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScreenCloudMSFFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScreenCloudMSFFramework/Pods-ScreenCloudMSFFramework.release.xcconfig"; sourceTree = "<group>"; };
+		EF0697411B66306F001F3859 /* MSDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSDevice.h; sourceTree = "<group>"; };
+		EF0697421B66306F001F3859 /* MSDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSDevice.m; sourceTree = "<group>"; };
+		EF0697461B6637C8001F3859 /* MSApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSApplication.h; sourceTree = "<group>"; };
+		EF0697471B6637C8001F3859 /* MSApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSApplication.m; sourceTree = "<group>"; };
+		EF06974B1B6637E8001F3859 /* MSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSChannel.h; sourceTree = "<group>"; };
+		EF06974C1B6637E8001F3859 /* MSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSChannel.m; sourceTree = "<group>"; };
+		EF0697501B6637FE001F3859 /* MSChannelClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSChannelClient.h; sourceTree = "<group>"; };
+		EF0697511B6637FE001F3859 /* MSChannelClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSChannelClient.m; sourceTree = "<group>"; };
+		EF06975A1B663973001F3859 /* MSChannelClientList+CLIENTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MSChannelClientList+CLIENTS.h"; sourceTree = "<group>"; };
+		EF06975B1B663973001F3859 /* MSChannelClientList+CLIENTS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MSChannelClientList+CLIENTS.m"; sourceTree = "<group>"; };
 		EF866CB81B661E8D003CD818 /* ScreenCloudMSFFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScreenCloudMSFFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF866CBC1B661E8D003CD818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF866CBD1B661E8D003CD818 /* ScreenCloudMSFFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScreenCloudMSFFramework.h; sourceTree = "<group>"; };
@@ -205,6 +230,16 @@
 				EF866CE41B661EAE003CD818 /* MultiScreenWebAppSession.h */,
 				EF866CE51B661EAE003CD818 /* MultiScreenWebAppSession.m */,
 				EF866CE61B661EAE003CD818 /* README.md */,
+				EF0697411B66306F001F3859 /* MSDevice.h */,
+				EF0697421B66306F001F3859 /* MSDevice.m */,
+				EF0697461B6637C8001F3859 /* MSApplication.h */,
+				EF0697471B6637C8001F3859 /* MSApplication.m */,
+				EF06974B1B6637E8001F3859 /* MSChannel.h */,
+				EF06974C1B6637E8001F3859 /* MSChannel.m */,
+				EF0697501B6637FE001F3859 /* MSChannelClient.h */,
+				EF0697511B6637FE001F3859 /* MSChannelClient.m */,
+				EF06975A1B663973001F3859 /* MSChannelClientList+CLIENTS.h */,
+				EF06975B1B663973001F3859 /* MSChannelClientList+CLIENTS.m */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -217,9 +252,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF866CEE1B661EAE003CD818 /* MultiScreenService.h in Headers */,
+				EF0697481B6637C8001F3859 /* MSApplication.h in Headers */,
+				EF0697431B66306F001F3859 /* MSDevice.h in Headers */,
+				EF06975C1B663973001F3859 /* MSChannelClientList+CLIENTS.h in Headers */,
 				EF866CEB1B661EAE003CD818 /* MultiScreenDiscoveryProvider.h in Headers */,
+				EF06974D1B6637E8001F3859 /* MSChannel.h in Headers */,
 				EF866CF11B661EAE003CD818 /* MultiScreenWebAppSession.h in Headers */,
 				EF866CBE1B661E8D003CD818 /* ScreenCloudMSFFramework.h in Headers */,
+				EF0697521B6637FE001F3859 /* MSChannelClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +457,11 @@
 				EF866CF41B661EAE003CD818 /* README.md in Sources */,
 				EF866CEC1B661EAE003CD818 /* MultiScreenDiscoveryProvider.m in Sources */,
 				EF866CF21B661EAE003CD818 /* MultiScreenWebAppSession.m in Sources */,
+				EF0697531B6637FE001F3859 /* MSChannelClient.m in Sources */,
+				EF06975D1B663973001F3859 /* MSChannelClientList+CLIENTS.m in Sources */,
+				EF0697441B66306F001F3859 /* MSDevice.m in Sources */,
+				EF0697491B6637C8001F3859 /* MSApplication.m in Sources */,
+				EF06974E1B6637E8001F3859 /* MSChannel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,11 +469,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0697541B6637FE001F3859 /* MSChannelClient.m in Sources */,
 				EF866CF51B661EAE003CD818 /* README.md in Sources */,
 				EF866CED1B661EAE003CD818 /* MultiScreenDiscoveryProvider.m in Sources */,
+				EF06975E1B663973001F3859 /* MSChannelClientList+CLIENTS.m in Sources */,
 				EF866CE81B661EAE003CD818 /* CONTRIBUTING.md in Sources */,
 				EF866CCB1B661E8D003CD818 /* ScreenCloudMSFFrameworkTests.m in Sources */,
+				EF0697451B66306F001F3859 /* MSDevice.m in Sources */,
 				EF866CF31B661EAE003CD818 /* MultiScreenWebAppSession.m in Sources */,
+				EF06974F1B6637E8001F3859 /* MSChannel.m in Sources */,
+				EF06974A1B6637C8001F3859 /* MSApplication.m in Sources */,
 				EF866CF01B661EAE003CD818 /* MultiScreenService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

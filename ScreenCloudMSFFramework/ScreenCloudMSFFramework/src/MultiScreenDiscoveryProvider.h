@@ -5,7 +5,7 @@
 
 #import <Foundation/Foundation.h>
 #import "DiscoveryProvider.h"
-
+@import MSF;
 
 @interface MultiScreenDiscoveryProvider : DiscoveryProvider
 
