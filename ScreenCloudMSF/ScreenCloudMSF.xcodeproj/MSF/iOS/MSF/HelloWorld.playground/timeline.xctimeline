@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Timeline
+   version = "3.0">
+   <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=1118&amp;EndingColumnNumber=29&amp;EndingLineNumber=39&amp;StartingColumnNumber=13&amp;StartingLineNumber=39&amp;Timestamp=443498538.246642"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=2418&amp;EndingColumnNumber=28&amp;EndingLineNumber=54&amp;StartingColumnNumber=9&amp;StartingLineNumber=54&amp;Timestamp=443498538.246642"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=10&amp;CharacterRangeLoc=3697&amp;EndingColumnNumber=15&amp;EndingLineNumber=112&amp;StartingColumnNumber=5&amp;StartingLineNumber=112&amp;Timestamp=444198749.09475"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "#CharacterRangeLen=0&amp;CharacterRangeLoc=1118&amp;EndingColumnNumber=12&amp;EndingLineNumber=43&amp;StartingColumnNumber=9&amp;StartingLineNumber=43&amp;Timestamp=443498538.246642"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/aljop/Developer/Samsung/github/swift-msf-api/iOS/MSF/HelloWorld.playground#CharacterRangeLen=34&amp;CharacterRangeLoc=2573&amp;EndingLineNumber=73&amp;StartingLineNumber=73&amp;Timestamp=444193208.247186"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+   </TimelineItems>
+</Timeline>

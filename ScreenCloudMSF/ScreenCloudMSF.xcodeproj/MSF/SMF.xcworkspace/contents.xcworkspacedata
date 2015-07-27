@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <Group
+      location = "group:common"
+      name = "common">
+      <FileRef
+         location = "group:MDNSDiscoveryProvider.swift">
+      </FileRef>
+      <FileRef
+         location = "group:ChannelClient.swift">
+      </FileRef>
+      <FileRef
+         location = "group:ChannelTransport.swift">
+      </FileRef>
+      <FileRef
+         location = "group:RPCMessaje.swift">
+      </FileRef>
+      <FileRef
+         location = "group:ServiceSearch.swift">
+      </FileRef>
+      <FileRef
+         location = "group:WebSocketTransport.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Application.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Channel.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Device.swift">
+      </FileRef>
+      <FileRef
+         location = "group:JSON.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Message.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Requester.swift">
+      </FileRef>
+      <FileRef
+         location = "group:Service.swift">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:iOS/MSF/MSF.xcodeproj">
+   </FileRef>
+</Workspace>

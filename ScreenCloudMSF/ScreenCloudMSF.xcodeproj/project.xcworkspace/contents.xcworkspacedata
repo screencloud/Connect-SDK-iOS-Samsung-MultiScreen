@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:src"
+      name = "src">
+      <FileRef
+         location = "group:CONTRIBUTING.md">
+      </FileRef>
+      <FileRef
+         location = "group:LICENSE">
+      </FileRef>
+      <FileRef
+         location = "group:MultiScreenDiscoveryProvider.h">
+      </FileRef>
+      <FileRef
+         location = "group:MultiScreenDiscoveryProvider.m">
+      </FileRef>
+      <FileRef
+         location = "group:MultiScreenService.h">
+      </FileRef>
+      <FileRef
+         location = "group:MultiScreenService.m">
+      </FileRef>
+      <FileRef
+         location = "group:MultiScreenWebAppSession.h">
+      </FileRef>
+      <FileRef
+         location = "group:MultiScreenWebAppSession.m">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "self:ScreenCloudMSF.xcodeproj">
+   </FileRef>
+</Workspace>
