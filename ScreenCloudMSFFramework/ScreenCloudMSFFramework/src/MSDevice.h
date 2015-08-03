@@ -127,6 +127,7 @@ extern NSString *const API_VERSION;
  *  @param completionBlock The callback handler block
  *  @param queue           Device API 1.0
  */
+
 - (void)getApplication:(NSString *)runTitle
        completionBlock:(void (^)(MSApplication *application,NSError *error))completionBlock
                  queue:(dispatch_queue_t)queue;
@@ -183,5 +184,6 @@ extern NSString *const API_VERSION;
         clientAttributes:(NSDictionary *)clientAttributes
          completionBlock:(void (^)(MSChannel *channel, NSError *error))completionBlock
                    queue:(dispatch_queue_t)queue;
+
 
 @end

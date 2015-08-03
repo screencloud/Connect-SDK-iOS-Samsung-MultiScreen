@@ -10,4 +10,16 @@
 
 @implementation MSDevice
 
+- (void)getApplication:(NSString *)runTitle completionBlock:(void (^)(MSApplication *, NSError *))completionBlock queue:(dispatch_queue_t)queue
+{
+    dispatch_async(queue, ^{
+        
+    });
+}
+
+- (void)connectToChannel:(NSString *)channelId clientAttributes:(NSDictionary *)clientAttributes completionBlock:(void (^)(MSChannel *, NSError *))completionBlock queue:(dispatch_queue_t)queue
+{
+    
+}
+
 @end

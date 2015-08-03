@@ -6,6 +6,10 @@
 #import <Foundation/Foundation.h>
 #import "WebAppSession.h"
 #import "MultiScreenService.h"
+
+#import "MSChannel.h"
+#import "MSApplication.h"
+
 //#import <SamsungMultiscreen/SamsungMultiscreen.h>
 
 

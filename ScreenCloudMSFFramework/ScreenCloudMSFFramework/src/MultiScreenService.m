@@ -224,7 +224,7 @@
         params = @{};
 
     webAppId = [ConnectUtil urlEncode:webAppId];
-
+    
     [self.device getApplication:webAppId completionBlock:^(MSApplication *application, NSError *getError) {
         if (getError || !application)
         {
